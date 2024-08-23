@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    width:100vw;
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    display: flex;
+}
+.bg-pink{
+    height:100vh;
+    width:310px;
+    background-color:rgb(243, 241, 241);
+}
+.bg-pink h1{
+    font-family: fantasy;
+    margin-left:70px;
+    padding-top:30px;
+}
+.icon{
+    height:40px;
+    width:40px;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    top:30px;
+    left:20px;
+    border-radius: 30px;
+}
+.icon img{
+    height:40px;
+    width:40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.profile img{
+    width:100px;
+    height:100px;
+    border-radius: 50px;
+    outline: 2px solid rgb(255, 0, 93);
+    outline-offset: 2px;
+}
+.head .profile{
+    display: inline-block;
+    height:100px;
+    width:100px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 50px;
+    margin-top: 50px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.head h2{
+    margin-top: 15px;
+}
+.pre{
+    margin-top: 10px;
+    font-family:'Times New Roman', Times, serif;
+}
+.pre1{
+    padding-top:6px;
+    font-family:'Times New Roman', Times, serif;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    margin-top:30px;
+  }
+  .nav h4{
+    width:98.7%;
+    height:35px;
+    margin:5px;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-left: 20px;
+  }
+  .nav h4:hover{
+    color:rgb(255, 0, 43);
+    border-right: 2px solid rgb(255, 0, 43);
+  }
+  .nav a{
+    text-decoration: none;
+    color: black;
+  }
+  /* top search_______________________________________________________________________________________*/
+  .search input{
+    height:34px;
+    width:160px;
+    margin-left: 20px;
+    margin-top:10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 5px;
+    background-color: whitesmoke;
+ }
+ .icon-1{
+    height:30px;
+    width:30px;
+    background-color: transparent;
+    display: inline-block;
+    border-radius: 30px;
+    margin-left: 3px;
+ }
+ .span{
+    margin-left:590px;
+    margin-top:10px;
+ }
+ .span .fa-bell{
+    margin-top:7px;
+    margin-left: 10px;
+    font-size:20px;
+    cursor: pointer;
+ }
+ .span .fa-envelope{
+    margin-top:7px;
+    margin-left: 2px;
+    font-size:20px;
+    cursor: pointer;
+ }
+.search{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+button{
+    width:120px;
+    height:30px;
+    margin-top:10px;
+    background: linear-gradient(to right,red,yellow);
+    border: none;
+    outline:none;
+    border-radius: 5px;
+    margin-left:5px;
+    cursor: pointer;
+}
+/* _________________________________________________________________________________________________*/
